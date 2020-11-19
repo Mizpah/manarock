@@ -1,0 +1,6 @@
+name: manarock
+recipe: pantheon
+config:
+  framework: drupal8
+  site: manarock
+  id: b9cebc41-4c59-4773-b285-071c9d7cbb99
