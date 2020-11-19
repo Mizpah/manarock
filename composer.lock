@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4f987d9483ca982bb68ae58e002267e",
+    "content-hash": "3b7a8899c01203a292a4776c177e7d4c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3253,16 +3253,16 @@
         },
         {
             "name": "pantheon-systems/drupal-integrations",
-            "version": "8.0.3",
+            "version": "9.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/drupal-integrations.git",
-                "reference": "0d352e1167a5b3575d886128c8f1fa796603ed9b"
+                "reference": "b452b9767cbd6f2aa1991ed855556169c68dba07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/drupal-integrations/zipball/0d352e1167a5b3575d886128c8f1fa796603ed9b",
-                "reference": "0d352e1167a5b3575d886128c8f1fa796603ed9b",
+                "url": "https://api.github.com/repos/pantheon-systems/drupal-integrations/zipball/b452b9767cbd6f2aa1991ed855556169c68dba07",
+                "reference": "b452b9767cbd6f2aa1991ed855556169c68dba07",
                 "shasum": ""
             },
             "conflict": {
@@ -3292,7 +3292,7 @@
                 "issues": "https://github.com/pantheon-systems/drupal-integrations/issues",
                 "source": "https://github.com/pantheon-systems/drupal-integrations/tree/master"
             },
-            "time": "2020-03-11T18:20:13+00:00"
+            "time": "2020-05-11T18:27:03+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
