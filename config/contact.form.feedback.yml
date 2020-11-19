@@ -1,4 +1,4 @@
-uuid: 22804403-0c89-455b-a2c5-391b440db61d
+uuid: baf156b3-a9c6-4366-807e-6b166ae76fff
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - martin@manarock.co.uk
+  - webadmin@manarock.co.uk
 reply: ''
 weight: 0
 message: 'Your message has been sent.'
