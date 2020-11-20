@@ -1,0 +1,34 @@
+uuid: b26e5f53-9c1c-4e0d-9af7-55cec2b82c3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.server.pantheon
+  module:
+    - search_api
+    - node
+id: content
+name: Content
+description: 'Test Content Index for SOLR'
+read_only: false
+field_settings: {  }
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: pantheon

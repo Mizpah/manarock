@@ -55,6 +55,7 @@
         "drupal/core": "^8.9",
         "drupal/core-composer-scaffold": "^8.9",
         "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/search_api_pantheon": "~1.0",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "^8.4.5",
         "pantheon-systems/drupal-integrations": "^9",
