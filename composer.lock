@@ -4,8 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "816ff9e0424b8330eccf7bcfdbd5fb80",
+    "content-hash": "2b7a5ffaed1aa27b79b794fca2811d49",
     "packages": [
+        {
+            "name": "DoersGuild/jQuery.print",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DoersGuild/jQuery.print.git",
+                "reference": "origin/master"
+            },
+            "type": "drupal-library"
+        },
         {
             "name": "asm89/stack-cors",
             "version": "1.3.0",
@@ -11127,6 +11137,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "doersguild/jquery.print": 20,
         "drupal/commerce_pos": 20,
         "drupal/commerce_stripe": 5,
         "drupal/inline_entity_form": 5
