@@ -4,18 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b7a5ffaed1aa27b79b794fca2811d49",
+    "content-hash": "08ed8cb08d22b238f3b8a6e913dcaa20",
     "packages": [
-        {
-            "name": "DoersGuild/jQuery.print",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DoersGuild/jQuery.print.git",
-                "reference": "origin/master"
-            },
-            "type": "drupal-library"
-        },
         {
             "name": "asm89/stack-cors",
             "version": "1.3.0",
@@ -1707,6 +1697,16 @@
             },
             "abandoned": "roave/better-reflection",
             "time": "2020-10-27T21:46:55+00:00"
+        },
+        {
+            "name": "doersguild/jquery.print",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DoersGuild/jQuery.print.git",
+                "reference": "origin/master"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "drupal/address",
@@ -7017,6 +7017,23 @@
                 "source": "https://github.com/sebastianbergmann/version/tree/master"
             },
             "time": "2016-10-03T07:35:21+00:00"
+        },
+        {
+            "name": "serratus/quaggaJS",
+            "version": "0.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/serratus/quaggaJS.git",
+                "reference": "master"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/serratus/quaggaJS/zipball/master/serratus-quaggaJS-v0.12.1-14-g862df88.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0.20"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "stack/builder",

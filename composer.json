@@ -4,23 +4,44 @@
     "type": "project",
     "license": "MIT",
     "repositories": [
-        	{
-            	"type": "composer",
-            	"url": "https://packages.drupal.org/8"
-        	},
-        	{
+        {
+           	"name": "drupal",
+           	"type": "composer",
+           	"url": "https://packages.drupal.org/8"
+        },
+        {
         	"type": "package",
         	"package": {
-            	"name": "DoersGuild/jQuery.print",
-            	"version": "master",
-            	"type": "drupal-library",
-            	"source": {
-                	"url": "https://github.com/DoersGuild/jQuery.print.git",
-                	"type": "git",
-                	"reference": "origin/master"
-            	}
+           		"name": "doersguild/jquery.print",
+           		"version": "master",
+           		"type": "drupal-library",
+           		"source": {
+               		"url": "https://github.com/DoersGuild/jQuery.print.git",
+               		"type": "git",
+               		"reference": "origin/master"
+           		}
         	}
-    	}
+        },
+       {
+            "type": "package",
+            "package": {
+                "name": "serratus/quaggaJS",
+                "version": "0.12.1",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/serratus/quaggaJS.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/serratus/quaggaJS/zipball/master/serratus-quaggaJS-v0.12.1-14-g862df88.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "composer/installers": "^1.0.20"
+                }
+            }
+        }
     ],
     "require": {
         "php": ">=7.4",
@@ -46,7 +67,8 @@
         "phpunit/php-token-stream": "^3",
         "phpunit/phpunit": "^7",
         "sebastian/comparator": "^3.0",
-        "sebastian/diff": "^3.0"
+        "sebastian/diff": "^3.0",
+        "serratus/quaggajs": "^0.12.1"
     },
     "require-dev": {
         "behat/behat": "^3.1",
@@ -103,7 +125,11 @@
                 "type:drupal-core"
             ],
             "web/libraries/{$name}": [
-                "type:drupal-library"
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset",
+                "vendor:npm-asset",
+                "vendor:bower-asset"
             ],
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"
