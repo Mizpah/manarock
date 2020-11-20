@@ -51,10 +51,12 @@ module:
   quickedit: 0
   rdf: 0
   search: 0
+  search_api: 0
   shortcut: 0
   state_machine: 0
   system: 0
   taxonomy: 0
+  telephone: 0
   text: 0
   token: 0
   toolbar: 0

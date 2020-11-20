@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8b7be42fb8f63799f7a56941e170a0b",
+    "content-hash": "816ff9e0424b8330eccf7bcfdbd5fb80",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2041,21 +2041,15 @@
         },
         {
             "name": "drupal/commerce_pos",
-            "version": "2.5.0",
+            "version": "dev-2.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/commerce_pos.git",
-                "reference": "8.x-2.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/commerce_pos-8.x-2.5.zip",
-                "reference": "8.x-2.5",
-                "shasum": "449132a9e32c4f6377440847c4daa390f8dcdbbe"
+                "reference": "d458739e1387491bf89f2f620d31f4395e0294ee"
             },
             "require": {
                 "cboden/ratchet": "^0.4.1",
-                "drupal/commerce": "~2.8",
+                "drupal/commerce": "~2.16",
                 "drupal/commerce_log": "*",
                 "drupal/commerce_order": "*",
                 "drupal/commerce_payment": "*",
@@ -2073,12 +2067,15 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                },
                 "drupal": {
-                    "version": "8.x-2.5",
-                    "datestamp": "1550879549",
+                    "version": "8.x-2.5+9-dev",
+                    "datestamp": "1581770243",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -11130,6 +11127,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "drupal/commerce_pos": 20,
         "drupal/commerce_stripe": 5,
         "drupal/inline_entity_form": 5
     },
