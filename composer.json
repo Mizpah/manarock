@@ -12,7 +12,7 @@
         {
         	"type": "package",
         	"package": {
-           		"name": "doersguild/jquery.print",
+           		"name": "DoersGuild/jQuery.print",
            		"version": "master",
            		"type": "drupal-library",
            		"source": {
@@ -47,7 +47,7 @@
         "php": ">=7.4",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
-        "doersguild/jquery.print": "master@dev",
+        "doersguild/jquery.print": "master",
         "drupal/commerce": "^2.21",
         "drupal/commerce_pos": "2.x-dev",
         "drupal/commerce_stripe": "^1.0@RC",
@@ -88,7 +88,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "classmap": [
