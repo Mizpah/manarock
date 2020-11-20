@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60d65f5b819ae924a893cb835ae620d2",
+    "content-hash": "2ed07dff281e32eb23ea603914c38e15",
     "packages": [
         {
             "name": "DoersGuild/jQuery.print",
@@ -7019,7 +7019,7 @@
             "time": "2016-10-03T07:35:21+00:00"
         },
         {
-            "name": "serratus/quaggaJS",
+            "name": "serratus/quagga",
             "version": "0.12.1",
             "source": {
                 "type": "git",

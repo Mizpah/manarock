@@ -25,7 +25,7 @@
        {
             "type": "package",
             "package": {
-                "name": "serratus/quaggaJS",
+                "name": "serratus/quagga",
                 "version": "0.12.1",
                 "type": "drupal-library",
                 "source": {
@@ -68,7 +68,7 @@
         "phpunit/phpunit": "^7",
         "sebastian/comparator": "^3.0",
         "sebastian/diff": "^3.0",
-        "serratus/quaggajs": "^0.12.1"
+        "serratus/quagga": "^0.12.1"
     },
     "require-dev": {
         "behat/behat": "^3.1",
@@ -113,6 +113,7 @@
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
+            "cp -v web/libraries/quagga/dist/quagga.min.js web/libraries/quagga/quagga.min.js",
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-create-project-cmd": [
