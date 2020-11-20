@@ -15,6 +15,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/commerce": "^2.21",
         "drupal/commerce_pos": "^2.5",
+        "drupal/commerce_stripe": "^1.0@RC",
         "drupal/config_direct_save": "^1.2",
         "drupal/core": "^8.9",
         "drupal/core-composer-scaffold": "^8.9",
