@@ -1,0 +1,40 @@
+uuid: 9e0f5e52-8cf1-48a3-802b-7fb6f57686ef
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: GBP
+denominations:
+  0:
+    label: 1p
+    amount: 1
+  1:
+    label: 2p
+    amount: 2
+  2:
+    label: 5p
+    amount: 5
+  3:
+    label: 10p
+    amount: 10
+  4:
+    label: 20p
+    amount: 20
+  5:
+    label: 50p
+    amount: 50
+  6:
+    label: £1
+    amount: 100
+  7:
+    label: £5
+    amount: 500
+  8:
+    label: £10
+    amount: 1000
+  9:
+    label: £20
+    amount: 2000
+  10:
+    label: £50
+    amount: 5000
+  actions: {  }

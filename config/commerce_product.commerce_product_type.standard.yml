@@ -1,0 +1,19 @@
+uuid: fe01825e-5fbe-46bc-91fd-987e1f6b7bb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_pos
+third_party_settings:
+  commerce_pos:
+    show_in_pos: true
+_core:
+  default_config_hash: igdv1CXBTq9vh-ONhQ2SFkVhr3bdfRC6nP1Uubdx-L0
+id: standard
+label: Standard
+description: 'Standard Product Type for Duplication and Modification'
+variationType: standard
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

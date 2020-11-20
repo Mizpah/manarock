@@ -1,0 +1,30 @@
+uuid: 40876b8c-c042-43d9-9fd0-9b0bac4306e4
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_pos
+  module:
+    - commerce_cart
+    - commerce_checkout
+    - commerce_pos
+third_party_settings:
+  commerce_cart:
+    cart_form_view: commerce_cart_form
+    cart_block_view: commerce_cart_block
+    cart_expiration: {  }
+  commerce_checkout:
+    checkout_flow: default
+_core:
+  default_config_hash: 3m5d4NpCiMG5sQgIsUQulq9odO27qOvn29rAc_2pUo0
+label: 'Standard Point of Sale'
+id: standard_point_of_sale
+workflow: order_pos
+numberPattern: null
+refresh_mode: customer
+refresh_frequency: 300
+sendReceipt: true
+receiptBcc: ''
+traits: {  }
+locked: false

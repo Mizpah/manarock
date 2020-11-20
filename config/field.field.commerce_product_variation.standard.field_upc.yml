@@ -1,0 +1,26 @@
+uuid: 57d97d2c-5fab-42f8-86ce-6b68d3fb281e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.standard
+    - field.storage.commerce_product_variation.field_upc
+  enforced:
+    module:
+      - commerce_pos
+  module:
+    - text
+_core:
+  default_config_hash: Y5MGunJ1GTlaxMP6Qk8veF_SuCTdgK_roTt8WyYhGzY
+id: commerce_product_variation.standard.field_upc
+field_name: field_upc
+entity_type: commerce_product_variation
+bundle: standard
+label: UPC
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

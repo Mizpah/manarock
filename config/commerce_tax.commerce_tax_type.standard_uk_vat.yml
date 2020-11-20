@@ -1,0 +1,9 @@
+uuid: 34c91a02-3b6f-44b5-9109-49835b7381d4
+langcode: en
+status: true
+dependencies: {  }
+id: standard_uk_vat
+label: 'Standard UK VAT'
+plugin: european_union_vat
+configuration:
+  display_inclusive: true

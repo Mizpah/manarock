@@ -1,0 +1,26 @@
+uuid: eb849d4d-fa5b-466f-af2e-1bba817c206f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_type.standard_point_of_sale
+    - field.storage.commerce_order.field_register
+  enforced:
+    module:
+      - commerce_pos
+_core:
+  default_config_hash: '-sftOxfwvsq1h9baPYRdIGjghdbQYWOltz5TOamZbPA'
+id: commerce_order.standard_point_of_sale.field_register
+field_name: field_register
+entity_type: commerce_order
+bundle: standard_point_of_sale
+label: Register
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_pos_register'
+  handler_settings: {  }
+field_type: entity_reference
