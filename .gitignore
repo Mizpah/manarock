@@ -114,3 +114,9 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+
+# Specific YML files to avoid UUID Dance (MD) #
+# Only do this after dev tools is working     #
+###############################################
+config/shortcut.set.default.yml
+config/system.site.yml
