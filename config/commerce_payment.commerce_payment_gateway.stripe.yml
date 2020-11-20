@@ -1,0 +1,20 @@
+uuid: 006326eb-57eb-4c13-8936-b41def30e667
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_stripe
+id: stripe
+label: Stripe
+weight: null
+plugin: stripe
+configuration:
+  publishable_key: pk_test_51Hn005HNEuZyx4W8IJnC55MIDX5Th5PqMdSQl2LimDsCO0kUcCkvSgC3Mb0cp2kzc3vnlMhg4XC8Oi9MiBEb6ikP00JiHmEa2w
+  secret_key: sk_test_51Hn005HNEuZyx4W8yu8utuMVivuZer2unp4YxZdjnp84YzAxfkoir4gCr42ZtgVfdG8ILn5acupFGyP7HXJ8lNaK009bDp9O6Y
+  display_label: Stripe
+  mode: test
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+conditions: {  }
+conditionOperator: AND
