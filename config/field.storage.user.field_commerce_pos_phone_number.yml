@@ -1,0 +1,24 @@
+uuid: a0ced569-2b61-435e-90cc-4cffdcaef577
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_pos
+  module:
+    - telephone
+    - user
+_core:
+  default_config_hash: ltJbww22C2BLl6jdUa8D73_1RGKw5Bo13x4Dfb8Xsgo
+id: user.field_commerce_pos_phone_number
+field_name: field_commerce_pos_phone_number
+entity_type: user
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.default
+    - field.field.commerce_product_variation.default.field_upc
   module:
     - commerce_price
 _core:
@@ -42,4 +43,5 @@ content:
     region: content
 hidden:
   created: true
+  field_upc: true
   uid: true

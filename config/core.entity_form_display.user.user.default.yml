@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_cashier_id
+    - field.field.user.user.field_commerce_pos_phone_number
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -39,3 +41,5 @@ content:
 hidden:
   commerce_remote_id: true
   customer_profiles: true
+  field_cashier_id: true
+  field_commerce_pos_phone_number: true

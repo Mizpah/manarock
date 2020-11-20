@@ -1,0 +1,14 @@
+uuid: 7b76b297-5dc8-44d5-a980-d77651602d34
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_pos
+_core:
+  default_config_hash: AetJ0W34Rg_blly55nVyGClN17XwYH0AQDvE-EK6Z5Y
+id: physical
+label: Physical
+description: ''
+traits: {  }
+locked: false

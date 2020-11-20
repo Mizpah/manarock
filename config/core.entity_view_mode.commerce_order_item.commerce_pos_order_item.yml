@@ -1,0 +1,12 @@
+uuid: 26d271f9-e9c0-49b1-b25e-67dfc62a6eb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_order
+_core:
+  default_config_hash: 9hEl6atBP9iaaLtIoWrWyEzXZuBvq5rYRwD7nBra_3s
+id: commerce_order_item.commerce_pos_order_item
+label: 'Commerce POS order item'
+targetEntityType: commerce_order_item
+cache: true

@@ -1,0 +1,29 @@
+uuid: b355a3d2-b64c-4e20-b5b7-4e7030da3945
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_pos
+_core:
+  default_config_hash: OfPJJCFUfAEyYX5iRRwfQSkdqwrld0vzNsip1csCpxM
+id: pos_cash
+label: Cash
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: Cash
+  mode: n/a
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+conditions:
+  -
+    plugin: order_type
+    configuration:
+      bundles:
+        - pos
+conditionOperator: AND

@@ -1,0 +1,14 @@
+uuid: 2e7f7f0d-ee3a-4f50-9208-a814f39a5b5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.pos_cashier
+  module:
+    - user
+id: user_add_role_action.pos_cashier
+label: 'Add the Cashier role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: pos_cashier
