@@ -27,7 +27,6 @@ include __DIR__ . "/settings.pantheon.php";
 
 // Configure Redis
 
-/**
 if (defined('PANTHEON_ENVIRONMENT')) {
   // Include the Redis services.yml file. Adjust the path if you installed to a contrib or other subdirectory.
   //$settings['container_yamls'][] = 'modules/redis/example.services.yml';
@@ -44,7 +43,6 @@ if (defined('PANTHEON_ENVIRONMENT')) {
   $settings['cache']['default'] = 'cache.backend.redis'; // Use Redis as the default cache.
   $settings['cache_prefix']['default'] = 'pantheon-redis';
 }
- */
 
 /**
  * If there is a local settings file, then include it
