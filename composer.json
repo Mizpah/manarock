@@ -5,13 +5,26 @@
     "license": "MIT",
     "repositories": [
         {
-           	"name": "drupal",
-           	"type": "composer",
-           	"url": "https://packages.drupal.org/8"
+            "name": "drupal",
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
         },
-       {
-            "type": "package",
-            "package": {
+        {
+        "type": "package",
+        "package": {
+            "name": "DoersGuild/jQuery.print",
+            "version": "master",
+            "type": "drupal-library",
+            "source": {
+                "url": "https://github.com/DoersGuild/jQuery.print.git",
+                "type": "git",
+                "reference": "origin/master"
+            }
+        }
+    },
+    {
+        "type": "package",
+        "package": {
                 "name": "serratus/quagga",
                 "version": "0.12.1",
                 "type": "drupal-library",
