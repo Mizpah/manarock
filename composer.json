@@ -50,6 +50,7 @@
         "doersguild/jquery.print": "master",
         "drupal/commerce": "^2.21",
         "drupal/commerce_pos": "2.x-dev",
+        "drupal/commerce_shipping": "^2.0@RC",
         "drupal/commerce_stripe": "^1.0@RC",
         "drupal/config_direct_save": "^1.2",
         "drupal/core": "^8.9",
