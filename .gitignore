@@ -47,6 +47,9 @@ web/sites/README.txt
 web/update.php
 web/web.config
 
+# Ignore libraries
+web/libraries
+
 # Add directories containing build assets below.
 # Keep all additions above the "cut" line.
 
