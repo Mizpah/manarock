@@ -9,19 +9,6 @@
            	"type": "composer",
            	"url": "https://packages.drupal.org/8"
         },
-        {
-        	"type": "package",
-        	"package": {
-           		"name": "DoersGuild/jQuery.print",
-           		"version": "master",
-           		"type": "drupal-library",
-           		"source": {
-               		"url": "https://github.com/DoersGuild/jQuery.print.git",
-               		"type": "git",
-               		"reference": "origin/master"
-           		}
-        	}
-        },
        {
             "type": "package",
             "package": {
@@ -55,6 +42,7 @@
         "drupal/core": "^8.9",
         "drupal/core-composer-scaffold": "^8.9",
         "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/redis": "^1.4",
         "drupal/search_api_pantheon": "~1.0",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "^8.4.5",
