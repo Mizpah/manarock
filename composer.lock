@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0bd3b0f9c0463fb37ede2e3a641b4fb",
+    "content-hash": "0ac9729064a497ff421f58ec05f80a21",
     "packages": [
         {
             "name": "DoersGuild/jQuery.print",
@@ -11594,11 +11594,11 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4"
+        "php": ">=7.3"
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.4"
+        "php": "7.3"
     },
     "plugin-api-version": "2.0.0"
 }

@@ -44,7 +44,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=7.3",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
         "doersguild/jquery.print": "master",
@@ -175,7 +175,7 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "platform": {
-            "php": "7.4"
+            "php": "7.3"
         }
     }
 }
