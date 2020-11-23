@@ -1,0 +1,104 @@
+taxonomies:
+  categories:
+    -
+      vid: categories
+      tid: '1'
+      langcode: en
+      name: Games
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 08c1228f-fc36-4e18-8ac2-6b5df0e91ce8
+    -
+      vid: categories
+      tid: '2'
+      langcode: en
+      name: Miniatures
+      description__value: null
+      description__format: null
+      weight: '7'
+      parent: '0'
+      uuid: 259953e2-81cc-45e0-89dd-c37134c52eca
+    -
+      vid: categories
+      tid: '3'
+      langcode: en
+      name: Roleplay
+      description__value: null
+      description__format: null
+      weight: '8'
+      parent: '0'
+      uuid: 8fc5c82d-2345-40bd-a156-949bb62ceaf2
+    -
+      vid: categories
+      tid: '4'
+      langcode: en
+      name: 'Card Games'
+      description__value: null
+      description__format: null
+      weight: '4'
+      parent: '0'
+      uuid: 9cbbd2a0-574f-4c8c-9665-9dd60131f313
+    -
+      vid: categories
+      tid: '5'
+      langcode: en
+      name: 'Magic the Gathering'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '4'
+      uuid: a4de0c28-8102-4112-8878-587a8d6d10c8
+    -
+      vid: categories
+      tid: '6'
+      langcode: en
+      name: Vanguard
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '4'
+      uuid: 81ebc035-72b1-4264-b0a2-1d4b0bcd83d8
+    -
+      vid: categories
+      tid: '7'
+      langcode: en
+      name: Pokemon
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '4'
+      uuid: faf3646b-351b-4e7b-88ed-cb6b6fea2e54
+    -
+      vid: categories
+      tid: '8'
+      langcode: en
+      name: 'Board Games'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '1'
+      uuid: 30175f7c-04cd-4c44-96a7-c6891a40f544
+    -
+      vid: categories
+      tid: '9'
+      langcode: en
+      name: 'Dice Games'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '1'
+      uuid: dcecf008-19ac-4531-a43c-6a9bb9f98d82
+    -
+      vid: categories
+      tid: '10'
+      langcode: en
+      name: Accessories
+      description__value: null
+      description__format: null
+      weight: '9'
+      parent: '0'
+      uuid: 47285656-68ac-4a97-abfe-087d3a08b1a7
+blocks: {  }
+menus: {  }
