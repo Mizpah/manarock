@@ -5,6 +5,7 @@ dependencies:
   config:
     - commerce_order.commerce_order_type.standard
     - core.entity_view_mode.commerce_order.user
+    - field.field.commerce_order.standard.shipments
   module:
     - commerce_order
     - entity_reference_revisions
@@ -85,6 +86,7 @@ hidden:
   changed: true
   ip_address: true
   search_api_excerpt: true
+  shipments: true
   store_id: true
   total_paid: true
   uid: true

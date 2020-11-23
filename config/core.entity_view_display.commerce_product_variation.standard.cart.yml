@@ -5,7 +5,9 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.standard
     - core.entity_view_mode.commerce_product_variation.cart
+    - field.field.commerce_product_variation.standard.dimensions
     - field.field.commerce_product_variation.standard.field_upc
+    - field.field.commerce_product_variation.standard.weight
   enforced:
     module:
       - commerce_cart
@@ -37,8 +39,10 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  dimensions: true
   field_upc: true
   price: true
   search_api_excerpt: true
   sku: true
   title: true
+  weight: true

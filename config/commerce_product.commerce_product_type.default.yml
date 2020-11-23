@@ -1,7 +1,12 @@
 uuid: 1e2ff19a-cd1d-4627-8858-6289d6efefe5
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - commerce_pos
+third_party_settings:
+  commerce_pos:
+    show_in_pos: true
 _core:
   default_config_hash: igdv1CXBTq9vh-ONhQ2SFkVhr3bdfRC6nP1Uubdx-L0
 id: default

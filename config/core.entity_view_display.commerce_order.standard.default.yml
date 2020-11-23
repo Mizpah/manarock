@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - commerce_order.commerce_order_type.standard
+    - field.field.commerce_order.standard.shipments
   module:
     - commerce_order
     - state_machine
@@ -92,5 +93,6 @@ hidden:
   billing_profile: true
   order_number: true
   search_api_excerpt: true
+  shipments: true
   store_id: true
   total_paid: true
