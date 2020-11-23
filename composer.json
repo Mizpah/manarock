@@ -55,6 +55,7 @@
         "drupal/config_direct_save": "^1.2",
         "drupal/core": "^8.9",
         "drupal/core-composer-scaffold": "^8.9",
+        "drupal/facets": "^1.6",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/redis": "^1.4",
         "drupal/search_api_pantheon": "~1.0",
