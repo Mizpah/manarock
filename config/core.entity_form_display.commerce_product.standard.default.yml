@@ -5,6 +5,7 @@ dependencies:
   config:
     - commerce_product.commerce_product_type.standard
     - field.field.commerce_product.standard.body
+    - field.field.commerce_product.standard.field_category
   module:
     - commerce
     - path
@@ -30,6 +31,16 @@ content:
     weight: 5
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_category:
+    weight: 9
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   path:
     type: path

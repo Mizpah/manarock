@@ -11,7 +11,7 @@ _core:
   default_config_hash: igdv1CXBTq9vh-ONhQ2SFkVhr3bdfRC6nP1Uubdx-L0
 id: standard
 label: Standard
-description: 'Standard product type for duplication and modification. This product type is configured with addition properties that may be missing from default.'
+description: 'Standard product type for duplication and modification. This product type is configured with addition properties (such as the product teaser, and taxonomy reference fields) that are missing from default.'
 variationType: standard
 multipleVariations: true
 injectVariationFields: true

@@ -1,0 +1,35 @@
+uuid: 7bd5c4d7-f4c0-4e56-bfd5-8f8cd9204a6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.server.pantheon_catalogue
+  module:
+    - search_api
+    - commerce_product
+id: catalogue
+name: Products
+description: ''
+read_only: false
+field_settings: {  }
+datasource_settings:
+  'entity:commerce_product':
+    bundles:
+      default: true
+      selected:
+        - default
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: pantheon_catalogue
