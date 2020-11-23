@@ -12,6 +12,6 @@ _core:
 label: Return
 id: return
 purchasableEntityType: commerce_product_variation
-orderType: default
+orderType: standard
 traits: {  }
 locked: false

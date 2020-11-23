@@ -1,0 +1,14 @@
+uuid: f47dc365-20a9-4ac6-9007-de4e01fc66b2
+langcode: en
+status: true
+dependencies: {  }
+id: standard
+label: Standard
+dimensions:
+  length: '10'
+  width: '10'
+  height: '10'
+  unit: cm
+weight:
+  number: '1'
+  unit: kg
