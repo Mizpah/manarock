@@ -59,6 +59,7 @@
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/redis": "^1.4",
         "drupal/search_api_pantheon": "~1.0",
+        "drupal/structure_sync": "^2.0",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "^8.4.5",
         "pantheon-systems/drupal-integrations": "^9",
