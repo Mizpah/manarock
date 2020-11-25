@@ -14,7 +14,8 @@
                 "url": "https://github.com/DoersGuild/jQuery.print.git",
                 "reference": "origin/master"
             },
-            "type": "drupal-library"
+            "type": "drupal-library",
+            "time": "2018-11-14T16:25:33+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -2117,7 +2118,8 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/commerce_pos",
                 "issues": "https://www.drupal.org/project/issues/commerce_pos"
-            }
+            },
+            "time": "2020-02-15T12:37:03+00:00"
         },
         {
             "name": "drupal/commerce_pos_currency_denominations",
@@ -7470,7 +7472,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/serratus/quaggaJS/zipball/master/serratus-quaggaJS-v0.12.1-14-g862df88.zip"
+                "url": "https://github.com/serratus/quaggaJS/zipball/master/serratus-quaggaJS-v0.12.1-14-g862df88.zip",
+                "reference": "master"
             },
             "require": {
                 "composer/installers": "^1.0.20"
@@ -7595,16 +7598,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v7.65.0",
+            "version": "v7.66.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "d4a22eeec7654efb8476fe8bea95b1e9928025a6"
+                "reference": "0dc50f42b06be83fe7029410616bda6e89c6d2be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/d4a22eeec7654efb8476fe8bea95b1e9928025a6",
-                "reference": "d4a22eeec7654efb8476fe8bea95b1e9928025a6",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/0dc50f42b06be83fe7029410616bda6e89c6d2be",
+                "reference": "0dc50f42b06be83fe7029410616bda6e89c6d2be",
                 "shasum": ""
             },
             "require": {
@@ -7648,11 +7651,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "support": {
-                "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v7.65.0"
-            },
-            "time": "2020-11-19T19:37:25+00:00"
+            "time": "2020-11-24T16:33:56+00:00"
         },
         {
             "name": "symfony-cmf/routing",
@@ -10090,10 +10089,6 @@
                 "symfony",
                 "testing"
             ],
-            "support": {
-                "issues": "https://github.com/Behat/Behat/issues",
-                "source": "https://github.com/Behat/Behat/tree/v3.7.0"
-            },
             "time": "2020-06-03T13:08:44+00:00"
         },
         {
@@ -10153,10 +10148,6 @@
                 "gherkin",
                 "parser"
             ],
-            "support": {
-                "issues": "https://github.com/Behat/Gherkin/issues",
-                "source": "https://github.com/Behat/Gherkin/tree/master"
-            },
             "time": "2020-03-17T14:03:26+00:00"
         },
         {
@@ -10218,10 +10209,6 @@
                 "testing",
                 "web"
             ],
-            "support": {
-                "issues": "https://github.com/minkphp/Mink/issues",
-                "source": "https://github.com/minkphp/Mink/tree/v1.8.1"
-            },
             "time": "2020-03-11T15:45:53+00:00"
         },
         {
@@ -10279,10 +10266,6 @@
                 "browser",
                 "testing"
             ],
-            "support": {
-                "issues": "https://github.com/minkphp/MinkBrowserKitDriver/issues",
-                "source": "https://github.com/minkphp/MinkBrowserKitDriver/tree/v1.3.4"
-            },
             "time": "2020-03-11T09:49:45+00:00"
         },
         {
@@ -10342,10 +10325,6 @@
                 "test",
                 "web"
             ],
-            "support": {
-                "issues": "https://github.com/Behat/MinkExtension/issues",
-                "source": "https://github.com/Behat/MinkExtension/tree/master"
-            },
             "time": "2018-02-06T15:36:30+00:00"
         },
         {
@@ -10401,10 +10380,6 @@
                 "headless",
                 "testing"
             ],
-            "support": {
-                "issues": "https://github.com/minkphp/MinkGoutteDriver/issues",
-                "source": "https://github.com/minkphp/MinkGoutteDriver/tree/master"
-            },
             "time": "2016-03-05T09:04:22+00:00"
         },
         {
@@ -10466,10 +10441,6 @@
                 "testing",
                 "webdriver"
             ],
-            "support": {
-                "issues": "https://github.com/minkphp/MinkSelenium2Driver/issues",
-                "source": "https://github.com/minkphp/MinkSelenium2Driver/tree/v1.4.0"
-            },
             "time": "2020-03-11T14:43:21+00:00"
         },
         {
@@ -10515,10 +10486,6 @@
                 "slug",
                 "transliterator"
             ],
-            "support": {
-                "issues": "https://github.com/Behat/Transliterator/issues",
-                "source": "https://github.com/Behat/Transliterator/tree/v1.3.0"
-            },
             "time": "2020-01-14T16:39:13+00:00"
         },
         {
@@ -10585,10 +10552,6 @@
                 "stylecheck",
                 "tests"
             ],
-            "support": {
-                "issues": "https://github.com/dealerdirect/phpcodesniffer-composer-installer/issues",
-                "source": "https://github.com/dealerdirect/phpcodesniffer-composer-installer"
-            },
             "time": "2020-06-25T14:57:39+00:00"
         },
         {
@@ -10724,10 +10687,6 @@
                 "phpcs",
                 "standards"
             ],
-            "support": {
-                "issues": "https://www.drupal.org/project/issues/coder",
-                "source": "https://www.drupal.org/project/coder"
-            },
             "time": "2020-11-04T14:55:07+00:00"
         },
         {
@@ -10794,10 +10753,6 @@
                 "test",
                 "web"
             ],
-            "support": {
-                "issues": "https://github.com/jhedstrom/drupalextension/issues",
-                "source": "https://github.com/jhedstrom/drupalextension/tree/v4.1.0"
-            },
             "time": "2020-06-01T18:13:52+00:00"
         },
         {
@@ -10853,10 +10808,6 @@
             "keywords": [
                 "scraper"
             ],
-            "support": {
-                "issues": "https://github.com/FriendsOfPHP/Goutte/issues",
-                "source": "https://github.com/FriendsOfPHP/Goutte/tree/master"
-            },
             "time": "2018-06-29T15:13:57+00:00"
         },
         {
@@ -10915,10 +10866,6 @@
                 "fail",
                 "screenshot"
             ],
-            "support": {
-                "issues": "https://github.com/forceedge01/behat-fail-aid/issues",
-                "source": "https://github.com/forceedge01/behat-fail-aid/tree/2.5.3"
-            },
             "time": "2020-01-03T17:15:17+00:00"
         },
         {
@@ -10978,10 +10925,6 @@
                 "webdriver",
                 "webtest"
             ],
-            "support": {
-                "issues": "https://github.com/instaclick/php-webdriver/issues",
-                "source": "https://github.com/instaclick/php-webdriver/tree/1.x"
-            },
             "time": "2019-09-25T09:05:11+00:00"
         },
         {
@@ -11039,10 +10982,6 @@
                 "headless",
                 "phantomjs"
             ],
-            "support": {
-                "issues": "https://github.com/jcalderonzumba/gastonjs/issues",
-                "source": "https://github.com/jcalderonzumba/gastonjs/tree/master"
-            },
             "time": "2017-03-31T07:31:47+00:00"
         },
         {
@@ -11101,10 +11040,6 @@
                 "phantomjs",
                 "testing"
             ],
-            "support": {
-                "issues": "https://github.com/jcalderonzumba/MinkPhantomJSDriver/issues",
-                "source": "https://github.com/jcalderonzumba/MinkPhantomJSDriver/tree/master"
-            },
             "time": "2016-12-01T10:57:30+00:00"
         },
         {
@@ -11151,11 +11086,6 @@
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
-            "support": {
-                "issues": "https://github.com/bovigo/vfsStream/issues",
-                "source": "https://github.com/bovigo/vfsStream/tree/master",
-                "wiki": "https://github.com/bovigo/vfsStream/wiki"
-            },
             "time": "2019-10-30T15:31:00+00:00"
         },
         {
@@ -11204,11 +11134,6 @@
                 }
             ],
             "description": "A PHPCS sniff to detect problems with variables.",
-            "support": {
-                "issues": "https://github.com/sirbrillig/phpcs-variable-analysis/issues",
-                "source": "https://github.com/sirbrillig/phpcs-variable-analysis",
-                "wiki": "https://github.com/sirbrillig/phpcs-variable-analysis/wiki"
-            },
             "time": "2020-10-07T23:32:29+00:00"
         },
         {
@@ -11260,11 +11185,6 @@
                 "phpcs",
                 "standards"
             ],
-            "support": {
-                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
-                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
-                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
-            },
             "time": "2020-10-23T02:01:07+00:00"
         },
         {
@@ -11319,9 +11239,6 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/browser-kit/tree/v4.4.16"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -11395,9 +11312,6 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/config/tree/v4.4.16"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -11465,9 +11379,6 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v2.8.52"
-            },
             "time": "2018-11-11T11:18:13+00:00"
         },
         {
@@ -11524,9 +11435,6 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/dom-crawler/tree/v4.4.16"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -11586,9 +11494,6 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.1.8"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -11607,16 +11512,16 @@
         },
         {
             "name": "textalk/websocket",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Textalk/websocket-php.git",
-                "reference": "7f2baaf501054ab2387b3860ad30f730a49f2a88"
+                "reference": "7c340e85f07e6da93e96aba9de311e35cae64da8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/7f2baaf501054ab2387b3860ad30f730a49f2a88",
-                "reference": "7f2baaf501054ab2387b3860ad30f730a49f2a88",
+                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/7c340e85f07e6da93e96aba9de311e35cae64da8",
+                "reference": "7c340e85f07e6da93e96aba9de311e35cae64da8",
                 "shasum": ""
             },
             "require": {
@@ -11648,11 +11553,7 @@
                 }
             ],
             "description": "WebSocket client and server",
-            "support": {
-                "issues": "https://github.com/Textalk/websocket-php/issues",
-                "source": "https://github.com/Textalk/websocket-php/tree/1.4.1"
-            },
-            "time": "2020-10-30T12:57:55+00:00"
+            "time": "2020-11-24T07:46:19+00:00"
         }
     ],
     "aliases": [],
@@ -11672,5 +11573,5 @@
     "platform-overrides": {
         "php": "7.3"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
